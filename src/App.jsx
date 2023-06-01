@@ -1,11 +1,19 @@
+import {
+  Routes,
+  Route
+} from 'react-router-dom'
+
+import Home from './pages/Home'
+
 import './App.css'
 
 function App() {
 
   return (
-    <div className='grid place-items-center h-screen'>
-      Goodbye World! :D
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route/>
+    </Routes>
   )
 }
 
