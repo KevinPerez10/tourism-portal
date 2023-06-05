@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nav() {
     return (
-        <div className='bg-white flex justify-center w-full py-5'>
+        <div className='bg-white border-2 z-10 fixed flex justify-center w-full py-5'>
             <div className='w-full mx-10 border-2 flex flex-row'>
                 <ul>Logo</ul>
                 <div className='hidden ml-auto md:flex justify-end w-1/2'>
