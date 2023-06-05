@@ -2,13 +2,15 @@ import React from 'react'
 
 export default function Nav() {
     return (
-        <div className='bg-white border-2 z-10 fixed flex justify-center w-full py-5'>
-            <div className='w-full mx-10 border-2 flex flex-row'>
-                <ul>Logo</ul>
-                <div className='hidden ml-auto md:flex justify-end w-1/2'>
-                    <ul className='w-full text-center border-2 cursor-pointer bg-green-200 px-2'>Home</ul>
-                    <ul className='w-full text-center border-2 cursor-pointer bg-green-200 px-2'>About Us</ul>
-                    <ul className='w-full text-center border-2 cursor-pointer bg-green-200 px-2'>Contact Us</ul>
+        <div className='bg-white border-2 z-20 fixed flex justify-center w-full'>
+            <div className='w-full md:mx-40 mx-5 text-xs flex flex-row items-center'>
+                <div>
+                    <img className='md:w-20 w-10' src='src/assets/images/logo.png' alt="logo" />
+                </div>
+                <div className='hidden md:text-lg ml-auto md:flex justify-end w-1/2'>
+                    <ul className='w-full text-center cursor-pointer px-2'>Home</ul>
+                    <ul className='w-full text-center cursor-pointer px-2'>About Us</ul>
+                    <ul className='w-full text-center cursor-pointer px-2'>Contact Us</ul>
                 </div>
                 <div className='md:hidden ml-auto grid place-items-center text-2xl'>
                     <ion-icon name="menu-outline"></ion-icon>

@@ -8,7 +8,11 @@ export default {
     fontFamily: {
       'jakarta': ['Plus Jakarta Sans']
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-image': "url('./assets/images/dodl5643yfxld49cwuxy.webp')"
+      }
+    },
   },
   plugins: [],
 }
