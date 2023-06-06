@@ -10,7 +10,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'home-image': "url('./assets/images/dodl5643yfxld49cwuxy.webp')"
+        'home-image': "url('./assets/images/dodl5643yfxld49cwuxy.webp')",
+        'start-image': "url('./assets/images/xnqqbwxlgp4uuezdct9j.webp')"
       }
     },
   },

@@ -18,30 +18,33 @@ export default function Home() {
                     </svg>
                 </div>
             </main>
-            <section className='h-screen w-full bg-white z-10 gap-10 flex flex-col items-center justify-center'>
-                <div className='flex flex-col w-1/2 sm:text-xl text-center'>
+
+            <section className='my-10 w-full bg-white z-10 gap-10 flex flex-col items-center justify-center'>
+                <div className='flex flex-col md:w-1/2 w-4/5 sm:text-xl text-center'>
                     <h1 className='text-2xl font-bold'>Tropical Dreams Come True</h1>
                     <div>
                         Prepare to be captivated by the enchanting beauty and incredible sights that await you in Puerto Princesa, Palawan!
                     </div>
                 </div>
-                <div className='w-3/5 grid place-items-center text-center'>
+                <div className='md:w-3/5 w-4/5 grid place-items-center text-center'>
                     <img className='shadow-xl rounded-2xl' src="src/assets/images/uepi05jkfw2ptfccqe0d.webp" alt="" />
                 </div>
             </section>
-            <section className='bg-orange-300 h-screen w-full rounded-tr-[10rem] rounded-bl-[10rem]'>
-                    <div className='w-1/2 border-2'>
-                        <h1 className='text-2xl font-bold'>Start your journey now at Puerto Princesa!</h1>
-                        <div>
-                            Indulge in pure bliss as you soak up the sun on the pristine beaches of Puerto Princesa, Palawan, where paradise awaits.
-                        </div>
+            
+            <section className='bg-start-image bg-cover bg-no-repeat h-screen flex flex-col items-center w-full md:rounded-tr-[10rem] md:rounded-bl-[10rem]'>
+                <div className='absolute h-full w-full md:rounded-tr-[10rem] md:rounded-bl-[10rem]'/>
+                <div className='lg:w-3/5 md:w-1/2 pt-10 w-4/5 md:self-start md:ml-10 border-2'>
+                    <h1 className='text-2xl font-bold'>Start your journey now at Puerto Princesa!</h1>
+                    <div>
+                        Indulge in pure bliss as you soak up the sun on the pristine beaches of Puerto Princesa, Palawan, where paradise awaits.
                     </div>
-                    <div className='grid place-items-center grid-cols-4'>
-                        <div className='border-2'>1</div>
-                        <div className='border-2'>2</div>
-                        <div className='border-2'>3</div>
-                        <div className='border-2'>4</div>
-                    </div>
+                </div>
+                <div className='grid place-items-center grid-cols-4'>
+                    <div className='border-2'>1</div>
+                    <div className='border-2'>2</div>
+                    <div className='border-2'>3</div>
+                    <div className='border-2'>4</div>
+                </div>
             </section>
         </div>
     )
