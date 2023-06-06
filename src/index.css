@@ -13,6 +13,8 @@
     background-image: linear-gradient(90deg, rgba(0,194,255,1) 30%, rgba(255,223,55,1) 70%);
 }
 
+/* svg 1 */
+
 .custom-shape-divider-bottom-1685939409 {
     position: absolute;
     bottom: 0;
@@ -32,4 +34,29 @@
 
 .custom-shape-divider-bottom-1685939409 .shape-fill {
     fill: #FFFFFF;
+}
+
+/* svg 2 */
+.custom-shape-divider-top-1686037844 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1686037844 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 97px;
+}
+
+.custom-shape-divider-top-1686037844 .shape-fill {
+    fill: #FFFFFF;
+}
+
+img {
+	max-width: 100%;
 }
