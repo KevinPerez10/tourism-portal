@@ -11,15 +11,22 @@ export default function Home() {
             <Nav/>
             <main className='flex relative items-center justify-center bg-home-image bg-cover bg-no-repeat h-screen w-full'>
                 <div className='absolute backdrop-brightness-50 h-full w-full'/>
-                <div
-                    data-aos='zoom-in'
-                    data-aos-delay="500"
-                    data-aos-duration="1000"
-                    className='flex flex-col text-white w-full text-4xl sm:text-5xl md:text-8xl text-center'
-                >
-                    <h1 className='drop-shadow-lg'>Experience</h1>
-                    <h2 className='puerto-header drop-shadow-lg font-bold'>Puerto Princesa</h2>
-                    <p className='mt-5 text-lg drop-shadow-lg'>Where Nature's Masterpieces Come to Life</p>
+                <div className='flex flex-col text-white w-full text-4xl sm:text-5xl md:text-8xl text-center'>
+                    <h1
+                        data-aos='zoom-in'
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className='drop-shadow-lg'>Experience</h1>
+                    <h2
+                        data-aos='zoom-in'
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className='puerto-header drop-shadow-lg font-bold'>Puerto Princesa</h2>
+                    <p
+                        data-aos='fade-up'
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className='mt-5 text-lg drop-shadow-lg'>Where Nature's Masterpieces Come to Life</p>
                 </div>
                 <div className="custom-shape-divider-bottom-1685939409 hidden md:block">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
