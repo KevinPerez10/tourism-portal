@@ -11,7 +11,8 @@ export default {
     extend: {
       backgroundImage: {
         'home-image': "url('./assets/images/dodl5643yfxld49cwuxy.webp')",
-        'start-image': "url('./assets/images/xnqqbwxlgp4uuezdct9j.webp')"
+        'start-image': "url('./assets/images/xnqqbwxlgp4uuezdct9j.webp')",
+        'journey-image': "url('./assets/images/ahvo0vaedfcxmq8rsgxt.webp')"
       }
     },
   },
